@@ -25,9 +25,7 @@
 				$target="_self";
 			endif;
 			?>
-			<!-- <a href="<?php echo $url ?>" target=<?php echo $target; ?>>
-			<?php the_post_thumbnail('homepage-thumb', array('alt' => '', 'title' => '')) ?>
-			</a> -->
+			<a href="<?php echo $url ?>" target=<?php echo $target; ?>><?php the_post_thumbnail('homepage-thumb', array('alt' => '', 'title' => '')) ?></a>
 	<?php if ($imbalance2_theme_options['images_only'] == 0): ?>
 			<div class="categories"><?php imbalance2_posted_in(); ?></div>
 			<h1><a href="<?php echo $url ?>" target=<?php echo $target; ?>><?php the_title(); ?></a></h1>
